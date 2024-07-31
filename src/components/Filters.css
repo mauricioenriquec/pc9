@@ -1,0 +1,31 @@
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.filters>div {
+  display: flex;
+  gap: 1rem;
+}
+
+select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 7px 10px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  font-size: 1em;
+  font-family:'Quicksand', sans-serif;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  position: relative;
+  transition: all 0.25s ease;
+}
+select:hover{
+	background:#807f7f;
+}
